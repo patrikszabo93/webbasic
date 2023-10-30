@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+
+<script>
+
+function daySelected(day){
+document.getElementById("resulttext").textContent = "Clicked"
+document.getElementById(day).style.color = 'green';
+
+
+}
+
+
+</script>
+
+
+
+
+</head>
+<body>
+
+<p id="resulttext">Click on one of the buttons below</p>    
+
+
+<button id="monday" onclick=daySelected('monday')>Click me</button>
+<button id="tuesday" onclick=daySelected('tuesday')>Click me</button>
+<button id="wednesday"onclick=daySelected('wednesday')>Click me</button>
+<button id="thursday"onclick=daySelected('thursday')>Click me</button>
+<button id="friday" onclick=daySelected('friday')>Click me</button>
+<button id="saturday" onclick=daySelected('saturday')>Click me</button>
+<button id="sunday" onclick=daySelected('sunday')>Click me</button>
+
+
+
+
+
+
+
+</body>
+</html>
