@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        function daySelected(day){
+    
+        if(day=='igen')
+        document.getElementById("resulttext").textContent = ' nyertél ';
+        else 
+        document.getElementById("resulttext").textContent = 'nem nyertél ';
+        
+        
+        }
+        
+        
+        </script>
+
+
+</head>
+
+
+
+<body>
+
+    <p id="resulttext">találd meg a kincset</p>  
+   
+    <button id="nem" onclick=daySelected('nem')>Click me</button>
+    <button id="igen" onclick=daySelected('igen')>Click me</button>
+    <button id="nem" onclick=daySelected('nem')>Click me</button>
+
+</body>
+</html>
