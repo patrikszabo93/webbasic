@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript órai</title>
+  <style>
+
+  </style>
+
+</head>
+
+<body>
+  <h1>Hello belló</h1>
+  <label>mennyi 5 + 2?</label>
+
+  <p id="demo">valami</p>
+  
+  <fieldset>
+    <button onclick="document.getElementById('demo2').textContent='Hello world!'">Script indítás</button>
+    <p id="demo2">kattints a Hello World-ért</p>
+  </fieldset>
+
+  <fieldset>
+    <button onclick="document.getElementById('demo3').textContent=new Date();"
+      onclick="document.getElementById('demo')">Script indítás</button>
+    <p id="demo3">kattints a dátumért</p>
+  </fieldset>
+</body>
+<script>
+  const myHeading = document.querySelector("h1");
+  myHeading.textContent = "Hello world!";
+
+  const myParagraph = document.getElementById('demo');
+  myParagraph.textContent = "Hello world!";
+</script>
+
+</html>
