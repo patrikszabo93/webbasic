@@ -9,6 +9,9 @@
 
 function daySelected(day){
 document.getElementById("resulttext").textContent = day +  ' pressed. ';
+if(day=='sunday')
+document.getElementById(day).style.color = 'red';
+else 
 document.getElementById(day).style.color = 'green';
 
 
