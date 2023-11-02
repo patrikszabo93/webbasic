@@ -9,15 +9,17 @@
   <script>
     function buttonSelected(selectedButton) {
       if (selectedButton == 'winnerButton')
-        document.getElementById("resulttext").textContent = 'Congratulations, you won the price!';
+        document.getElementById("resulttext2").textContent = 'Congratulations, you won the price!';
       else
-        document.getElementById("resulttext").textContent = 'Sorry, no luck this time.';
+        document.getElementById("resulttext2").textContent = 'Sorry, no luck this time.';
     }
   </script>
 </head>
 
 <body>
-  <p id="resulttext">Click on one of the buttons below.</p>
+  <p id="resulttext">Click on one of the buttons below.</p><br>
+  <p id="resulttext2">?</p>
+
   <button onclick=buttonSelected('looserButton')>Click me!</button>
   <button onclick=buttonSelected('looserButton')>Click me!</button>
   <button onclick=buttonSelected('looserButton')>Click me!</button>
